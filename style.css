@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(30, 255, 0);
+}
+
+header{
+    background-color: rgb(4, 0, 255);
+    height: 1000px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    color: azure;
+    margin: 20px;
+    background-image: url(https://beta-house.ru/images/detailed/41/Igra-Terraria-Switch_4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: 1000;
+    
+}
+p{
+    color: darkorange;
+    font-size: 30px;
+    font-style: italic;
+}
+main{
+    height: 1000px;
+    width: 100%;
+   
+
+}
+
+
+
+.left{
+    
+        background: radial-gradient(circle, #8a7c84, #ff0000);
+        background-color: aqua;
+    
+    
+    float: left;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(59, 139, 28);
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    color: rgb(136, 255, 0);
+    text-shadow: rgb(52, 36, 66) 2px 5px 3px;
+}
+
+.right{
+    
+        background: radial-gradient(circle, #ff0000, #fffb00);
+        background-color: blueviolet;
+    
+    
+    float: right;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(221, 129, 240);
+}
+footer{
+background-color: #ff0000;
+height: 100%;
+display: flex;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    font-size: 30px;
+    text-align: center;
+}
+.f_right{
+    width: 70%;
+    float: right;
+    font-size: 30px;
+    text-align: center;
+}
+.f_left img{
+    padding: 20px;
+}
+.f_right{
+    padding-right: 1000px;
+    
+}
